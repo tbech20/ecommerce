@@ -1,0 +1,174 @@
+.checkoutContainer {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    min-height: 500px;
+}
+
+.noproductsCheckout {
+    background-image: url("https://assets.materialup.com/uploads/66fb8bdf-29db-40a2-996b-60f3192ea7f0/preview.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.checkout {
+    flex: 1;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.checkoutLeft,
+.checkoutRight {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.checkoutLeft {
+    flex: 0.5;
+    margin-right: 20px;
+}
+
+.checkoutLeft > h2 {
+    font-family: Raleway;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.checkoutDoubleInput {
+    width: 100%;
+    display: flex;
+}
+.checkoutInput {
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: 100% !important;
+}
+
+.checkoutLongInputContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkoutRight {
+    flex: 0.5;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.checkoutRightHeading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 33px;
+}
+
+.checkoutProductDetails {
+    display: flex;
+}
+
+.checkoutProductImage {
+    width: 100px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.checkoutProductName {
+    font-family: Raleway;
+    font-size: 15px;
+    color: gray;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.checkoutProductValue {
+    color: gray;
+}
+
+hr {
+    width: 430px;
+    height: 2px;
+    color: lightgray;
+    margin-top: 10px !important;
+}
+.checkoutRightInfo {
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.coupon {
+    width: 300px !important;
+}
+
+.checkoutCouponContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.applyCouponBtn {
+    padding: 8px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 80px;
+    margin-left: 10px;
+    outline: none !important;
+}
+
+.payBtn {
+    padding: 8px;
+    border: none;
+    background-color: #715eeb;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    white-space: nowrap;
+    margin-top: 10px;
+    outline: none !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    transition: 180ms all ease-in;
+    width: 100%;
+}
+
+.payBtn:hover {
+    background-color: #5b4ac9;
+}
+
+.checkoutDecrease {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: #715eeb;
+    color: #fff;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: 180ms all ease-in;
+    outline: none !important;
+}
+
+.checkoutDecrease:hover {
+    background-color: transparent;
+    border: 1px solid #715eeb;
+    color: #000;
+}
+
+@media (max-width: 999px) {
+    .checkout {
+        flex-direction: column;
+        margin-left: 5%;
+    }
+}

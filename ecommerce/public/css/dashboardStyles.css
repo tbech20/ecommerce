@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-family: Poppins;
+}
+
+::selection {
+    background-color: #715eeb;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+/*Dashboard*/
+.dashboardContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    background-color: #000;
+}
+
+.sidebar {
+    flex: 0.1;
+    background-color: #000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.dashboardLogo {
+    margin-top: 20px;
+    width: 114px;
+    height: 34px;
+}
+
+.dashboardContentContainer {
+    flex: 0.9;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+
+.dashboardHeader {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 1px solid lightgray;
+    background-color: #fff;
+}
+
+.dashboardHeaderDetails {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.dashboardHeaderDetails > form > button {
+    border: none;
+    font-size: 13px;
+    color: #fff;
+    background-color: #000;
+    padding: 6px;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sidearSection {
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.sidebarLinks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.sidebarLinks > a {
+    padding: 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    width: 120px;
+    margin: 5px 0 5px 0;
+    text-decoration: none !important;
+    color: #fff !important;
+    transition: 180ms all ease-in;
+}
+
+.sidebarLinks > a:hover {
+    background-color: #393e46;
+}
+
+.sidebarActive {
+    background-color: #393e46;
+}
+
+.dashboardDataContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.data {
+    width: 300px;
+    height: 100px;
+    background-color: #715eeb;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.data > p {
+    font-size: 20px;
+}
+
+.dashboardGraphSection {
+    width: 100%;
+}
+/*Dashboard*/
+/*Add product*/
+
+.dashboardAddProduct {
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    padding: 20px;
+}
+
+.addProductLeft {
+    flex: 0.5;
+    padding: 10px;
+}
+
+.imageLabel {
+    background-color: #715eeb;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    white-space: nowrap;
+    width: 160px;
+    text-align: center;
+}
+
+.subImgaes {
+    display: flex;
+    align-items: center;
+}
+
+.productFrontImage {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.addProductRight {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.productMainImagePreview {
+    width: 800px;
+    height: 600px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.subImagesContainer {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.subImagesContainer > img {
+    margin-right: 20px;
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.submitProduct {
+    text-align: center;
+    padding: 5px;
+    background-color: #715eeb;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    transition: 180ms all ease-in;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.subImageLabel {
+    text-align: center;
+    padding: 5px;
+    background-color: #000;
+    width: 150px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    white-space: nowrap;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submitProduct:hover {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #5c45f2;
+    outline: none;
+}
+
+.succesfullyProductCreatedMessage {
+    background-color: #715eeb;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/*Add product*/
+
+/*All products*/
+.allproducts {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    overflow: scroll;
+}
+
+/*All products*/
+
+/*Tickets*/
+
+.tickets {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    overflow: scroll;
+}
+
+/*Tickets*/
+
+/*Credentials*/
+.credentials {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Credentials*/
+
+/*Orders*/
+
+.orders {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    overflow: scroll;
+}
+
+.orderStatus {
+    white-space: nowrap;
+    padding: 8px !important;
+}
+
+.credentialsSubmitBtn {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    background-color: #715eeb;
+    color: #fff;
+    transition: 100ms all ease-in;
+    border: none;
+}
+
+.credentialsSubmitBtn:hover {
+    background-color: #5c45f2;
+}
+
+.credentialsForm {
+    width: 30%;
+    border: 1px solid #715eeb;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.successfullyUpdatedCredentials {
+    text-align: center;
+}
+
+/*Orders*/
+
+/*Promocodes*/
+
+.promocodes {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.promocodeStatus {
+    padding: 10px !important;
+}
+
+.promocodeInput {
+    max-width: 100%;
+}
+
+.addPromocode {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 40%;
+    border: 1px solid #715eeb;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.addPromocode > p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.successFullMessage {
+    background-color: #715eeb;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px !important;
+}
+
+/*Promocodes*/
+
+/*Subscribers*/
+
+.subscribers {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Subscribers*/
+
+/*Order View*/
+
+.orderViewContainer {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderView {
+    width: 80%;
+    min-height: 900px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.orderView > h2 {
+    border-bottom: 1px solid lightgray;
+}
+
+.orderView > p {
+    margin-top: 20px;
+}
+
+.orderViewProductDetails {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.orderViewProductImage {
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+/*Order View*/
+/*Media Query*/
+
+@media (max-width: 1200px) {
+    .dashboardAddProduct {
+        flex-direction: column;
+    }
+
+    .subImgaes {
+        flex-direction: column;
+    }
+
+    .imageLabel {
+        margin-left: 0;
+    }
+}
+
+/*Media Query*/
